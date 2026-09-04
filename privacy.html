@@ -16,7 +16,7 @@
 <body>
 <main>
   <h1>Pushape Privacy Policy</h1>
-  <p>Effective date: September 1, 2026</p>
+  <p>Effective date: September 4, 2026</p>
 
   <h2>The short version</h2>
   <p>Pushape collects nothing. Your training data never leaves your phone.</p>
@@ -27,11 +27,23 @@
   no analytics, no advertising, and no third-party SDKs. The app makes no network
   connections.</p>
 
-  <h2>The camera</h2>
-  <p>With your permission, Pushape uses the front (Face ID) camera to measure the
-  distance to your face while you do push-ups, which is how reps are counted. This
-  measurement is processed on the device in real time. No photo or video is ever
-  recorded, stored, or transmitted.</p>
+  <h2>Face data (TrueDepth camera)</h2>
+  <p>With your permission, Pushape uses Apple's ARKit face tracking through the
+  front TrueDepth camera to count your push-ups. It reads exactly one thing: the
+  distance, in real time, between the phone and your face, several times per
+  second. That distance is used only in the moment, on your device, to detect the
+  up-and-down motion of a push-up and increment your rep count.</p>
+  <p>Pushape does not access, use, or derive your facial identity, facial
+  geometry, facial expressions, or any face map for any purpose. No face data of
+  any kind &mdash; no images, no video, no depth maps, no facial geometry, and no
+  distance measurements &mdash; is ever stored on your device, written to your
+  training history, shared with anyone, or transmitted off your device. The
+  distance value exists only in memory during an active set and is discarded
+  immediately as the next measurement replaces it.</p>
+  <p><strong>No face data is collected, retained, sold, or shared with any third
+  party, and none is used for advertising or identification.</strong> If you
+  prefer not to grant camera access, you can count every rep by tapping the screen
+  instead; the app is fully functional without the camera.</p>
 
   <h2>Apple Health</h2>
   <p>If you enable it, Pushape saves finished sessions to Apple Health as workouts.
